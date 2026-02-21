@@ -17,7 +17,6 @@ if not os.path.exists(MODEL_PATH):
     st.success("Model downloaded!")
 
 model = joblib.load(MODEL_PATH)
-st.success("Model loaded!")"
 
 if not os.path.exists(MODEL_PATH):
     st.info("Downloading model…")
@@ -340,6 +339,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
