@@ -7,7 +7,7 @@ import os
 import gdown
 
 MODEL_PATH = "career_model.pkl"
-DRIVE_URL = "https://drive.google.com/uc?id=1AbCdEfGhIjKlMnOpQrStUvWxYz"
+DRIVE_URL = "https://drive.google.com/uc?id=1dEFvpoqzLIGAcetASN1HJge3PPl7mE5g"
 
 # Download model if not present
 if not os.path.exists(MODEL_PATH):
@@ -327,6 +327,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
