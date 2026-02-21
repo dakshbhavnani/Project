@@ -7,7 +7,6 @@ import os
 import gdown
 
 MODEL_PATH = "career_model.pkl"
-MODEL_URL = "MODEL_PATH = "career_model.pkl"
 MODEL_URL = "https://www.dropbox.com/scl/fi/sbtcxd3ci27t7iporfftf/career_model.pkl?rlkey=byu4f8fkxxp52vlia4wsdtjfy&st=lwi3nrg3&dl=1"
 
 if not os.path.exists(MODEL_PATH):
@@ -341,6 +340,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
