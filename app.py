@@ -7,14 +7,28 @@ import os
 import gdown
 
 MODEL_PATH = "career_model.pkl"
-DRIVE_URL = "https://drive.google.com/uc?id=1dEFvpoqzLIGAcetASN1HJge3PPl7mE5g"
+MODEL_URL = "MODEL_PATH = "career_model.pkl"
+MODEL_URL = "https://www.dropbox.com/scl/fi/sbtcxd3ci27t7iporfftf/career_model.pkl?rlkey=byu4f8fkxxp52vlia4wsdtjfy&st=lwi3nrg3&dl=1"
 
-# Download model if not present
 if not os.path.exists(MODEL_PATH):
-    gdown.download(DRIVE_URL, MODEL_PATH, quiet=False)
+    st.info("Downloading model…")
+    response = requests.get(MODEL_URL)
+    with open(MODEL_PATH, "wb") as f:
+        f.write(response.content)
+    st.success("Model downloaded!")
 
-# Load model
 model = joblib.load(MODEL_PATH)
+st.success("Model loaded!")"
+
+if not os.path.exists(MODEL_PATH):
+    st.info("Downloading model…")
+    response = requests.get(MODEL_URL)
+    with open(MODEL_PATH, "wb") as f:
+        f.write(response.content)
+    st.success("Model downloaded!")
+
+model = joblib.load(MODEL_PATH)
+st.success("Model loaded!")
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -327,6 +341,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
