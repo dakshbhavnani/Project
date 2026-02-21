@@ -4,6 +4,8 @@ import joblib
 import numpy as np
 from utils import get_career_info, skill_gap_analysis
 
+DRIVE_URL = "https://drive.google.com/uc?id=1dEFvpoqzLIGAcetASN1HJge3PPl7mE5g"
+
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
     page_title="AI Career Guidance System",
@@ -313,4 +315,5 @@ else:
                     <div class='section-header'>❌ Missing Skills</div>
                     <p>{missing_html}</p>
                 </div>
+
                 """, unsafe_allow_html=True)
