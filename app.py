@@ -3,6 +3,7 @@ import pandas as pd
 import joblib
 import numpy as np
 from utils import get_career_info, skill_gap_analysis
+import os
 
 MODEL_PATH = "career_model.pkl"
 DRIVE_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"
@@ -325,4 +326,5 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
