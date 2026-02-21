@@ -44,7 +44,6 @@ encoders = joblib.load("encoders.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
 
-feature_cols = [c for c in student_df.columns if c != "Suggested Job Role"]
 
 # ---------------- REDESIGNED CSS ----------------
 st.markdown("""
@@ -340,6 +339,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
