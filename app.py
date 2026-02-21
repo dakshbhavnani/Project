@@ -4,7 +4,15 @@ import joblib
 import numpy as np
 from utils import get_career_info, skill_gap_analysis
 
-DRIVE_URL = "https://drive.google.com/uc?id=1dEFvpoqzLIGAcetASN1HJge3PPl7mE5g"
+MODEL_PATH = "career_model.pkl"
+DRIVE_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"
+
+# Download model if not present
+if not os.path.exists(MODEL_PATH):
+    gdown.download(DRIVE_URL, MODEL_PATH, quiet=False)
+
+# Load model
+model = joblib.load(MODEL_PATH)
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -317,3 +325,4 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
