@@ -1,31 +1,35 @@
 import streamlit as st
-import pandas as pd
 import joblib
-import numpy as np
-from utils import get_career_info, skill_gap_analysis
 import os
 import requests
 
 MODEL_PATH = "career_model.pkl"
 MODEL_URL = "https://www.dropbox.com/scl/fi/sbtcxd3ci27t7iporfftf/career_model.pkl?rlkey=byu4f8fkxxp52vlia4wsdtjfy&st=lwi3nrg3&dl=1"
 
-# Download model if it doesn't exist
-if not os.path.exists(MODEL_PATH):
+
+def download_model(url, path):
+    """Download the model safely."""
     try:
-        response = requests.get(MODEL_URL, stream=True)
+        response = requests.get(url, stream=True)
         response.raise_for_status()
-        with open(MODEL_PATH, "wb") as f:
+        with open(path, "wb") as f:
             for chunk in response.iter_content(chunk_size=8192):
                 f.write(chunk)
+        return True
     except Exception as e:
-        st.stop()
+        return False
 
-# Now load the model safely
+# Ensure model exists
+if not os.path.exists(MODEL_PATH):
+    success = download_model(MODEL_URL, MODEL_PATH)
+    if not success:
+        st.stop()  # stop app if download fails
+
+# Load the model safely
 try:
     model = joblib.load(MODEL_PATH)
 except Exception as e:
     st.stop()
-
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -338,6 +342,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
