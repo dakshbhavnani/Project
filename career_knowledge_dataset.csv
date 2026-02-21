@@ -1,0 +1,43 @@
+Career,Description,Technical_Skills,Soft_Skills,Tools,Certifications,Beginner_Roadmap,Intermediate_Roadmap,Advanced_Roadmap,Projects,Growth_Scope
+Data Scientist,Analyze data and build ML models,Python|ML|Statistics|SQL,Analytical Thinking|Problem Solving,Python|TensorFlow|Pandas,Google DS|IBM DS,Python|Statistics|Excel,EDA|ML Models|SQL,Deep Learning|MLOps|NLP,Prediction System|Recommendation Engine,Very high demand
+Data Analyst,Interpret data and create dashboards,Excel|SQL|Python|Visualization,Communication|Critical Thinking,Excel|Power BI|Tableau,Google DA,Excel|Charts|SQL,Python|Dashboarding,Automation|Advanced Analytics,KPI Dashboard|Sales Analysis,High demand
+AI Engineer,Build AI and deep learning systems,Python|ML|DL|NLP,Research Skills|Math Thinking,TensorFlow|PyTorch|Keras,DeepLearning AI,Python|Math|ML,DL Models|NLP,MLOps|AI Systems,Chatbot|Image Classifier,Explosive growth
+Machine Learning Engineer,Deploy scalable ML systems,Python|ML|APIs|Cloud,Problem Solving|System Thinking,Scikit|Docker|AWS,ML Specialization,Python|ML Basics,Deployment|Pipelines,Scaling|Optimization,ML API|Model Deployment,Very high demand
+Business Intelligence Analyst,Convert data to business insights,SQL|Visualization|ETL,Decision Making|Communication,Power BI|Tableau|SQL,Microsoft BI Cert,SQL|Excel,Dashboards|KPIs,Automation|Forecasting,Business Dashboard,High demand
+Software Engineer,Build scalable software systems,DSA|OOP|DBMS|APIs,Logical Thinking|Teamwork,VS Code|Git|Docker,Oracle Java Cert,Programming|DSA,OOP|Projects,System Design|Cloud,Management System,Very high demand
+Web Developer,Build websites and web apps,HTML|CSS|JS|React,Creativity|Debugging,VS Code|Git|Node,Meta Frontend,HTML|CSS|JS,React|API,Optimization|Scaling,Ecommerce Site,Stable demand
+Backend Developer,Develop server-side systems,Python|Node|DB|API,System Thinking|Debugging,Django|Node|Postgres,Backend Cert,Programming|DB,API|Framework,Scaling|Security,REST API Project,High demand
+Frontend Developer,Build UI and UX interfaces,HTML|CSS|JS|React,Creativity|UX Thinking,VS Code|Figma,Frontend Cert,HTML|CSS|JS,React|UI,Performance|Optimization,Portfolio Site,High demand
+Full Stack Developer,Build complete web apps,Frontend|Backend|DB,Problem Solving|Adaptability,Node|React|Mongo,FullStack Cert,HTML|CSS|JS,Backend|DB,System Design|Scaling,Full Web App,Very high demand
+Mobile App Developer,Develop Android/iOS apps,Java|Kotlin|Flutter,Creativity|Debugging,Android Studio|Firebase,Android Cert,Java|Layouts,API|DB,Optimization|Publishing,Chat App,High demand
+Game Developer,Create games with engines,C++|Unity|Physics,Creativity|Math,Unity|Unreal,Unity Cert,C++|Math,Unity Projects,Multiplayer|AI,3D Game,Niche growth
+Cyber Security Analyst,Protect systems from threats,Networking|Security|Linux,Attention|Risk Thinking,Kali|Wireshark|Burp,CEH|Security+,Networking|Linux,PenTesting|Monitoring,Threat Intelligence,Vulnerability Scanner,Very high demand
+Ethical Hacker,Perform penetration testing,Networking|Linux|Security,Curiosity|Analytical Thinking,Kali|Metasploit,CEH|OSCP,Networking|Linux,Exploitation|Reports,Advanced Security,Pentest Lab,High demand
+Cloud Engineer,Manage cloud infrastructure,AWS|Linux|Networking,Automation|Problem Solving,AWS|Azure|Docker,AWS Cert,Linux|Networking,Deployment|CI/CD,Architecture|Scaling,Cloud Deployment,Rapid growth
+DevOps Engineer,Automate deployment pipelines,CI/CD|Docker|Cloud,Automation Thinking|Teamwork,Jenkins|Docker|K8s,AWS DevOps Cert,Linux|Git,CI/CD|Docker,K8s|Automation,Pipeline Project,Explosive demand
+UI Designer,Design user interfaces,Figma|Design Principles,Creativity|Empathy,Figma|XD,Google UX,Design Basics,Figma|Wireframes,Design Systems,App UI Redesign,Strong demand
+UX Designer,Improve user experience,Research|Prototyping|Testing,Empathy|Observation,Figma|Miro,Google UX Cert,Design Basics,User Testing,UX Strategy,UX Case Study,Strong demand
+Product Manager,Lead product development,Market Analysis|Planning,Leadership|Communication,Jira|Notion,PM Cert,Business Basics,Agile|Roadmaps,Strategy|Scaling,Product Plan,Very high demand
+Project Manager,Manage teams and timelines,Planning|Budgeting,Leadership|Coordination,MS Project|Jira,PMP,Planning Basics,Agile|Risk Mgmt,Portfolio Mgmt,Project Plan,Stable demand
+Digital Marketer,Promote brands online,SEO|Ads|Analytics,Creativity|Strategy,Google Ads|Meta Ads,Google Marketing,Marketing Basics,Campaigns|SEO,Automation|Scaling,Ad Campaign,High demand
+SEO Specialist,Improve search rankings,SEO|Keywords|Analytics,Research|Patience,Ahrefs|SEMrush,SEO Cert,SEO Basics,OnPage|OffPage,Technical SEO,SEO Audit,Stable demand
+Content Writer,Create online content,Writing|Research,Creativity|Storytelling,WordPress|Grammarly,Content Cert,Writing Basics,Blogging|SEO,Brand Strategy,Blog Portfolio,Stable demand
+Video Editor,Edit videos professionally,Editing|Color|Sound,Creativity|Detail,Premiere|AfterEffects,Adobe Cert,Editing Basics,Effects|Story,Advanced Editing,Short Film,Niche growth
+Graphic Designer,Design graphics and branding,Photoshop|Illustrator,Creativity|Visual Thinking,Adobe Suite,Design Cert,Design Basics,Branding|Layout,Advanced Design,Brand Kit,Strong demand
+Chartered Accountant,Handle financial auditing,Accounting|Tax|Finance,Accuracy|Integrity,Tally|Excel,CA Cert,Accounting Basics,Taxation|Audit,Financial Strategy,Audit Project,Stable high demand
+Financial Analyst,Analyze investments and markets,Finance|Excel|Forecasting,Analytical Thinking,Excel|Power BI,CFA Level 1,Finance Basics,Valuation|Forecasting,Portfolio Mgmt,Investment Report,High demand
+Investment Banker,Manage corporate investments,Finance|Valuation,Negotiation|Pressure Handling,Excel|Bloomberg,CFA,MBA Basics,Corporate Finance,Deal Structuring,Market Study,High salary field
+HR Manager,Manage employee lifecycle,Recruitment|Policy,Leadership|Communication,HRMS|Excel,HR Cert,HR Basics,Recruitment|Payroll,Strategy|Culture,HR Plan,Stable demand
+Operations Manager,Handle business operations,Planning|Process Mgmt,Leadership|Efficiency,ERP|Excel,Operations Cert,Business Basics,Process Mgmt,Optimization,Operations Plan,Stable demand
+Supply Chain Analyst,Optimize logistics systems,Logistics|Analytics,Problem Solving|Coordination,SAP|Excel,Supply Chain Cert,Supply Basics,Inventory|Forecasting,Optimization,Supply Dashboard,High demand
+Civil Engineer,Design infrastructure projects,Structures|AutoCAD,Planning|Math,AutoCAD|STAAD,Civil Cert,Math|Drawing,Site Work|Design,Project Mgmt,Bridge Design,Stable demand
+Mechanical Engineer,Design machines and systems,CAD|Thermodynamics,Problem Solving|Math,AutoCAD|SolidWorks,Mechanical Cert,Math|Physics,Design|Analysis,Automation|R&D,Machine Design,Stable demand
+Electrical Engineer,Work on electrical systems,Circuits|Power Systems,Analytical Thinking,Matlab|Simulink,Electrical Cert,Physics|Circuits,Control Systems,Advanced Electronics,Power Project,Stable demand
+Doctor,Diagnose and treat patients,Medicine|Diagnosis,Empathy|Decision Making,Medical Tools,MBBS,Medical Basics,Clinical Practice,Specialization,Case Study,Very high demand
+Nurse,Assist in patient care,Medical Care|Monitoring,Empathy|Responsibility,Hospital Systems,Nursing Cert,Medical Basics,Clinical Work,Specialization,Patient Care Plan,High demand
+Pharmacist,Prepare and dispense medicines,Pharmacy|Chemistry,Accuracy|Responsibility,Pharmacy Tools,Pharma Cert,Chemistry Basics,Dispensing,Clinical Pharma,Drug Report,Stable demand
+Teacher,Educate students in schools,Subject Knowledge|Teaching,Communication|Patience,Smart Boards|LMS,B.Ed,Subject Basics,Teaching Practice,Advanced Pedagogy,Lesson Plan,Stable demand
+Professor,Teach at university level,Research|Teaching,Presentation|Analysis,Research Tools,PhD,Masters Study,Teaching|Research,Publications,Research Paper,Academic demand
+Lawyer,Handle legal cases and disputes,Law|Research,Argument|Negotiation,Legal Tools,LLB,Law Basics,Court Practice,Specialization,Case Study,Stable demand
+Journalist,Report news and stories,Research|Writing,Curiosity|Communication,Media Tools,Journalism Cert,Writing Basics,Field Reporting,Investigative Work,News Article,Stable demand
+Entrepreneur,Start and manage businesses,Business|Finance,Risk Taking|Leadership,Business Tools,Startup Courses,Business Basics,Market Fit,Scaling,Startup Plan,Unlimited growth
