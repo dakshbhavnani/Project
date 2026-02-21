@@ -9,7 +9,24 @@ import requests
 MODEL_PATH = "career_model.pkl"
 MODEL_URL = "https://www.dropbox.com/scl/fi/sbtcxd3ci27t7iporfftf/career_model.pkl?rlkey=byu4f8fkxxp52vlia4wsdtjfy&st=lwi3nrg3&dl=1"
 
-model = joblib.load(MODEL_PATH)
+st.title("Career Guidance App")
+
+# Download model if it doesn't exist
+if not os.path.exists(MODEL_PATH):
+    try:
+        response = requests.get(MODEL_URL, stream=True)
+        response.raise_for_status()
+        with open(MODEL_PATH, "wb") as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+    except Exception as e:
+        st.stop()
+
+# Now load the model safely
+try:
+    model = joblib.load(MODEL_PATH)
+except Exception as e:
+    st.stop()
 
 
 # ---------------- PAGE CONFIG ----------------
@@ -323,6 +340,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
