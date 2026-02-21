@@ -11,15 +11,6 @@ MODEL_URL = "https://www.dropbox.com/scl/fi/sbtcxd3ci27t7iporfftf/career_model.p
 
 model = joblib.load(MODEL_PATH)
 
-if not os.path.exists(MODEL_PATH):
-    st.info("Downloading model…")
-    response = requests.get(MODEL_URL)
-    with open(MODEL_PATH, "wb") as f:
-        f.write(response.content)
-    st.success("Model downloaded!")
-
-model = joblib.load(MODEL_PATH)
-st.success("Model loaded!")
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
@@ -332,6 +323,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
