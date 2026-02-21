@@ -43,8 +43,6 @@ model = joblib.load("career_model.pkl")
 encoders = joblib.load("encoders.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
-career_df = pd.read_csv("career_knowledge_dataset.csv")
-student_df = pd.read_csv("dataSet.csv")
 
 feature_cols = [c for c in student_df.columns if c != "Suggested Job Role"]
 
@@ -342,6 +340,7 @@ else:
                 </div>
 
                 """, unsafe_allow_html=True)
+
 
 
 
